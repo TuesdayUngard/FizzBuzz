@@ -1,0 +1,20 @@
+function start()
+{
+    var n = readInt("Pick a number: ");
+    for(var i = 1; i<=n; i++)
+    {
+        if(i%15=0)
+        {
+            println(i+": fizz buzz");
+        }
+        else if(i%5==0)
+        {
+        println(i+": buzz");
+        }
+        else if(i%3==0)
+        {
+            println(i+": fizz")
+        }
+    }
+    
+}
